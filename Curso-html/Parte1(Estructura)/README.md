@@ -1,10 +1,10 @@
 # Introduccion a HTML
 
 ## Head
-Aqui el va a ir la informacion para el navegador, todas las etiquetas , parienedo desde el 'script','style','title' y etc
+ > Aqui va a ir toda la funsionalida para el navegador, aqui vamos a encontar las etiquetas 'script','style','title'.
 
 ## Body
-Aqui va ir la informacion para el usuario, dondo se va poder visualizar cada cada cambio.
+> Aqui  se va encontar todo lo visible para el usudario, en este apartado vana poder ser visible los cambios hechos.
 
 ---
 
@@ -14,14 +14,14 @@ Aqui va ir la informacion para el usuario, dondo se va poder visualizar cada cad
 
 ### Encabezado
 
+Como podemos ver aqui, tenemo el encabezado del sitio Web, aqui podemos encontar las diferentes etiquetas de h1,h2,h3...h6, que se utilizaran para el titulo.
+
 ```html
     <header>
         <h1>Mi sitio Web</h1>
     </header>
 ```
-> header -> Se usa esta etiqueta para contener el titulo del la pagina, es su mayoria se encuentra el h1.
-
-Como podemos ver aqui, tenemo el encabezado del sitio Web, aqui podemos encontar las diferentes etiquetas de h1,h2,h3...h6, que se utilizaran para el titulo.
+>`header` -> Se usa esta etiqueta para contener el titulo del la pagina, es su mayoria se encuentra el h1.
 
 ### Navegacion
 
@@ -40,9 +40,9 @@ Como podemos ver aqui, tenemo el encabezado del sitio Web, aqui podemos encontar
     </nav>
 
 ```
-> ul -> Es el que nos va a dar listas no ordenada.
+>`ul` -> Es el que nos va a dar listas no ordenada.
 
-> ol -> Es el que nos va mostar las listas ordenadas "enumeradas".
+>`ol` -> Es el que nos va mostar las listas ordenadas "enumeradas".
 
 ### Cuerpo
 
@@ -56,11 +56,11 @@ Como podemos ver aqui, tenemo el encabezado del sitio Web, aqui podemos encontar
     </section>
 ```
 
-> section -> Es la etiqueta padre, es la que engloba todo el contendo y asi poder tenemos una mejor distribucion del contenido de la pagina.
+>`section` -> Es la etiqueta padre, es la que engloba todo el contendo y asi poder tenemos una mejor distribucion del contenido de la pagina.
 
->article -> Es la etiqueta que va contener todo el contendo del cuerpo.
+>`article` -> Es la etiqueta que va contener todo el contendo del cuerpo.
 
-> p -> Es la etiqueta que se usa pare tener todo el texto estructurado.
+>`p` -> Es la etiqueta que se usa pare tener todo el texto estructurado.
 
 ### Pie de pagina
 
@@ -71,4 +71,4 @@ Como podemos ver aqui, tenemo el encabezado del sitio Web, aqui podemos encontar
 </footer>
 ```
 
-> footer -> Es usado para dar una estructura el pie de pagina, es el que va en capsular todo el contenido 
+>` footer` -> Es usado para dar una estructura el pie de pagina, es el que va en capsular todo el contenido 

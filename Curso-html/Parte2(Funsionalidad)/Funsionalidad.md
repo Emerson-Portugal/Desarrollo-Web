@@ -1,5 +1,7 @@
 # Functionalidad
 
+:grin: :grin: :grin: :grin:
+
 > Aqui vamos a ver todo lo relacionado con: class, id, form, table, link
 
 ## Tablas 
