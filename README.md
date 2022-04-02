@@ -20,9 +20,6 @@ Te va hablar sobre de "class", "id", "tablas", "enlaces" y "formularios" de esa 
 
 ######  Avance
 
-* [ x ] html
-* [ x ] Estructura
-* [ x ] Functionalidad
-
+* [x] html
 * [  ] css
 * [  ] javascript
