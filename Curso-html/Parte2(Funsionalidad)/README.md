@@ -63,15 +63,15 @@
 
 > ` <input type="name" placeholder="Nombre">` 
 
-> -> El input, te va permitir el ingreso de valores
+> `input` -> te va permitir el ingreso de valores
 
-> -> El type, es el encargado de asignarle el tipo de valor de entrada.
+> `El type` -> el encargado de asignarle el tipo de valor de entrada.
 
-> -> El placeholder, escribe una refencia dentro del area, que le ayude al usuario.
+>`El placeholder`  -> escribe una refencia dentro del area, que le ayude al usuario.
 
 > `<textarea placeholder="Comentario"></textarea>`
 
-> -> textarea, te permite el ingreso de una gran cantidad de contenido "texto"
+>`textarea` -> te permite el ingreso de una gran cantidad de contenido "texto"
 
 
 
