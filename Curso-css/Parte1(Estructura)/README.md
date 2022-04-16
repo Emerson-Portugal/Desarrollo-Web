@@ -53,8 +53,46 @@
 
 ### DISPLEY: FLEX
 
+> Es una de las propiedades, para que funsione bien, tiene que enteder el concepto de columna y fila;
 
+![](flex-1.png)
 
+#### FLEX-DIRECTION: COLUMN
+
+``` CSS
+.container{
+    display: flex;
+    flex-direction: column;
+}
+> Propiedades
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+
+```
+![](flex-2.png)
+#### FLEX-DIRECTION: ROW
+
+``` CSS
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+> Propiedades de posicion
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: center;
+
+> Propiedades de distribucion
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+```
+![](flex-3.png)
+
+![](flex-4.png)
 
 
 ### DISPLEY: GRID            
