@@ -1,19 +1,26 @@
 # Introduccion al Desarrollo Web
-:smiley: :smiley: :smiley:
+:smiley: :smiley: :smiley: :smiley: :smiley: :smiley::smiley: :smiley: :smiley:
 ## HTML
 
->  En este apartado vamos hablar de como se va a maquetar un sitio web, partiendo desde la cabezera hasta el pie de pagina de esta manera podras hacer tus paginas web desde cero, como tambien vas a encontar el contenido para que lo puedas descargar, lo cual te a permitir poner en practica todo lo aprendo 
+>  En este apartado vamos hablar de como se va a maquetar un sitio web, partiendo desde la cabezera hasta el pie de pagina, de esta manera podras hacer tus paginas web desde cero, vas a encontar el contenido para que lo puedas descargar.
 
 ` Parte 1`
 
- Te va hablar del como se debe estructurar tu sitio web, parte por parte , asi tendras una idea general como se debe estructurar tu sitio, como funsiona cada etiqueta
+> Se  hablar de como se debe estructurar tu sitio web, parte por parte , asi tendras una idea general y como funsiona cada etiqueta.
 
 ` Parte 2`
 
-Te va hablar sobre de "class", "id", "tablas", "enlaces" y "formularios" de esa forma vas tener una idea, de como va funsionar cada tipo de parametro, asi podras implementarlo en cada una de tus etiquetas 
+> Se habla sobre "class", "id", "tablas", "enlaces" y "formularios" de esa forma vas tener una idea general de sus utilidades, asi podras implementarlo en tu sitio web.
 
 ## CSS
 
+`Parte 1`
+
+> Se habla, como funsiona cada etiqueta, la sintaxis y como debes usar css, algunos tips, que te permiten una mejor preforma.
+
+`Parte 2`
+
+> Vamos hablar, del posicionamiento, de los elementos, gracias a las propiedad de position y display.
 ## JavaScrpit
 
 
@@ -21,5 +28,5 @@ Te va hablar sobre de "class", "id", "tablas", "enlaces" y "formularios" de esa 
 ######  Avance
 
 * [x] html
-* [  ] css
+* [x] css
 * [  ] javascript
