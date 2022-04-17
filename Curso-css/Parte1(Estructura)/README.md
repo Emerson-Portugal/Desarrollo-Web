@@ -27,35 +27,35 @@
 <dl>, <dd>, <dt>.- los elementos de definiciones.
 ```
 
-![](parte1.png)
+![](img/parte1.png)
 
 > Una de las ventajas, de usas display:block, es que te permite usar padding, margin y el width. (es como un cuadrado que le puede, dar posicion y apariencia)
 
-![](resumen_block.png)
+![](img/resumen_block.png)
 
 
 ### DISPLAY: INLINE
 
 > Creo que es una de las utilidades mas extrañas de entender, ya que tienes que primero, display:inline, toma al padre como base, es decir que al el, le vas a dar la movilidad de margin, mas no al hijo, como sabemos tampoco funciona el `width` aqui. 
 
-![](parte2.png)
+![](img/parte2.png)
 
 > Teniedo esta idea, el margin va a funcionar respeto al padre pero si toma a `body` como padre, no podra tener movilidad hacia arriba, usando `margin-top`
 
-![](parte3.png)
+![](img/parte3.png)
 
 ### DISPLEY: INLINE-BLOCK
 
 > Es la union de `display:block y display:inline`, sacando las mejores propiedades de cada uno, como asi. `INLINE`, te permite poner elementos uno a lado del otro y `BLOCK`, te permite usar las propiedades de width y margin.
 
-![](parte4.png)
+![](img/parte4.png)
 
 
 ### DISPLEY: FLEX
 
 > Es una de las propiedades, para que funsione bien, tiene que enteder el concepto de columna y fila;
 
-![](flex-1.png)
+![](img/flex-1.png)
 
 #### FLEX-DIRECTION: COLUMN
 
@@ -70,7 +70,7 @@
     align-items: center;
 
 ```
-![](flex-2.png)
+![](img/flex-2.png)
 #### FLEX-DIRECTION: ROW
 
 ``` CSS
@@ -90,9 +90,64 @@
     justify-content: space-evenly;
 
 ```
-![](flex-3.png)
+![](img/flex-3.png)
 
-![](flex-4.png)
+![](img/flex-4.png)
 
 
 ### DISPLEY: GRID            
+
+> Esta propiedad de CSS, nos permite posicionar elementos de forma estructurada, algo que con `flex` se puede, pero es mas complicado, ya que a la hora de darle una posicion, se complica,algo que en `grid` es muy simple.
+
+```CSS
+.container{
+ display:grid;
+ grid-template-columns: repeat(4, 1fr) ;
+ grid-template-rows: repeat(4, 1fr) ;
+
+}
+```
+
+![](img/grid-1.png)
+
+>  Hay que tener en cuenta, que el hijo se va a encargar de la posicion, es decir que a el, se le va hacer las modificaciones con codigo
+
+
+```CSS
+.container{
+ display:grid;
+ grid-template-columns: repeat(4, 1fr) ;
+ grid-template-rows: repeat(4, 1fr) ;
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+    background-color:blue;
+    margin: 10px;
+}
+
+.primero{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.segundo{
+    grid-column: 2/3;
+    grid-row: 2/4;
+
+```
+
+![](img/grid-2.png)
+
+
+### CODIGO PARA AMBOS ELEMENTOS
+
+> Hay codigo, funciona igual en `flex  como grid`
+
+
+```CSS
+gap: 2px;
+```
+
+![](img/flex-grid.png)
