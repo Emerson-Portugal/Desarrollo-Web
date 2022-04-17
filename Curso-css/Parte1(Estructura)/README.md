@@ -3,13 +3,44 @@
 > Vamos a hablar de `display` y sus variaciones, cada utilidad que va a tener cada elemento
 
 ## POSITION
+> Es la propiedad que te permite , poder  mover los elementos, segun tus necesidades.
 
-### ABSOLUTE
 ### RELATION
 
+> Podemos mover los elementos a nuestro antojo, teniendo en cuenta que tu posicion, si influye, se conciera dentro del contenedor.
+
+### ABSOLUTE
+
+> Al darle esta propidad, el desaparece el bloque y se puede mover segun su necesidad
 
 
+![](img/position.png)
 
+
+> Una de las utilidades que puedes usar, es al darle un sombreado a las imagenes.
+
+```CSS
+.container{
+    background-image: url(img/flex-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    background-position: center center;
+    position: relative;
+}
+
+.primero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+```
+
+![](img/sombreado.png)
 
 
 ## DISPLAY
