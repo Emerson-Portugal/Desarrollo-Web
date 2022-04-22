@@ -1,10 +1,6 @@
 # Introduccion al Desarrollo Web
 
-
-
-<img src="img/programacion.gif"  style = "width:200px; display:inline;">
-
-<img src="img/programacion.gif"  style = "width:200px; display:inline;">
+<img src="img/programacion.gif"  style = "width:400px; display:inline;">
 
 ## HTML
 
