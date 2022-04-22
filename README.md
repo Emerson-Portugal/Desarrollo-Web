@@ -5,7 +5,6 @@
   <img src="img/programacion.gif" width=200>
   <img src="img/programacion.gif" width=200>
   <img src="img/programacion.gif" width=200>
-  <img src="img/programacion.gif" width=200>
 </div>
 
 ## HTML
