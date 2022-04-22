@@ -1,5 +1,11 @@
 # Introduccion al Desarrollo Web
-<img src="img/programacion.gif" >
+
+
+
+<img src="img/programacion.gif"  style = "width:200px; display:inline;">
+
+<img src="img/programacion.gif"  style = "width:200px; display:inline;">
+
 ## HTML
 
 >  En este apartado vamos hablar de como se va a maquetar un sitio web, partiendo desde la cabezera hasta el pie de pagina, de esta manera podras hacer tus paginas web desde cero, vas a encontar el contenido para que lo puedas descargar.
