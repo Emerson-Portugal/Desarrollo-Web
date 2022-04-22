@@ -1,6 +1,9 @@
 # Introduccion al Desarrollo Web
 
-<img src="img/programacion.gif"  style = "width:400px; display:inline;">
+<div style="display: flex">
+  <img src="img/programacion.gif" width=200>
+  <img src="img/programacion.gif" width=200>
+</div>
 
 ## HTML
 

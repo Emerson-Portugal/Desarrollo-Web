@@ -15,3 +15,7 @@ var saludo = "hola mundo"
 let saludo = "hola mundo"
 const saludo = "hola mundo"
 ```
+
+> `var`, es una tipo de variable global, esto puede provocar, una confusion a la hora de usar las variables.
+
+> 
