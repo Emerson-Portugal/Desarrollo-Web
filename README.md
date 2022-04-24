@@ -1,10 +1,8 @@
 # Introduccion al Desarrollo Web
-
-<div style="display: flex">
-  <img src="img/programacion.gif" width=200>
-  <img src="img/programacion.gif" width=200>
-  <img src="img/programacion.gif" width=200>
-  <img src="img/programacion.gif" width=200>
+<div style="display: flex; justify-content: space-evenly; margin-bottom: 25px;">
+  <img src="img/programacion.gif" width=150px>
+  <img src="img/programacion.gif" width=150px>
+  <img src="img/programacion.gif" width=150px>
 </div>
 
 ## HTML
