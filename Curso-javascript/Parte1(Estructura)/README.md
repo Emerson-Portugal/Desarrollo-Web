@@ -134,6 +134,12 @@ suma(5,5);
 
 ![](img/ES6.png)
 
+### Funsiones como parametro
+
+> En este caso. lo que sucede es que pasamos una funsion como parametro, lo que nos permite trabajar con ella, por medio de parametro, algo que ayuda mucho a la reutilización de codigo.
+
+![](img/funsiones.png)
+
 ## Clases
 
 ### Declaracion
