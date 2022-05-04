@@ -6,6 +6,6 @@
   <img src="img/js.jpg" width=200px>
 </div>
 
-> Vamos a tener tocar temas mas estructurados y complicados, como Api, promesas y cosas, que nos van a permitir sacar una mejor utilidad al javascript.
+> En este punto se tocara sobre la estructura de JS y vamos tener ejemplos de  API, PROMESAS y ASYNC/AWAIT, que nos van a permitir sacar una mejor utilidad al javascript.
 
 
