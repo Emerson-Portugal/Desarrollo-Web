@@ -1,8 +1,15 @@
-const numero1 = 20;
-const numero2 = "50";
+const dato =  {
+    nombre: "emer",
+    mostar: ()=>{
+        console.log(`${this.nombre}`)
+    }
+}
+dato.mostar()
 
-console.log(numero1.toString());
-console.log(parseInt(numero2));
-
-console.log(numero1);
-console.log(numero2);
+const dato1 =  {
+    nombre: "emer",
+    mostar: function(){
+        console.log(`${this.nombre}`)
+    }
+}
+dato1.mostar()

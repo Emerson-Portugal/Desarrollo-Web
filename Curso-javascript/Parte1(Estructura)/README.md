@@ -75,7 +75,7 @@ console.log(computadora);
 ![](img/objetos_ingreso.png)
 
 
-> En este apartado vamos a unir dos objetos, para tener solo uno
+> En este apartado vamos a unir dos objetos, para tenerlo en un solo objeto
 
 ```JAVASCRIPT
 let computadora1 = {
@@ -96,6 +96,8 @@ console.log(unir);
 ```
 
 ![](img/union_objeto.png);
+
+
 ## Bucles
 
 > Este apartado se divide en multiples partes, tenemos `if, while y for`.De esa manera podemos poner condiciones hasta que cumpla la conficion.
@@ -272,3 +274,29 @@ persona2.contenido();
 ```
 
 ![](img/extens__js.png)
+
+##### Importante recordad
+
+> Cuando usamos el metodo `=>`, dentro de un objeto, el valor no existe, ya que el lo toma como valor global. Mientras que `function`, toma el valor local. Hay que sabes diferencia cuando podemos usar cada metodo de llamado
+
+```JAVASCRIPT
+
+const dato =  {
+    nombre: "emer",
+    mostar: ()=>{
+        console.log(`${this.nombre}`)
+    }
+}
+dato.mostar()
+
+const dato1 =  {
+    nombre: "emer",
+    mostar: function(){
+        console.log(`${this.nombre}`)
+    }
+}
+dato1.mostar()
+
+```
+
+![](img/pasos_por_referencia.png)
