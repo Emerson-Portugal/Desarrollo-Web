@@ -58,3 +58,33 @@ if(Notification.permission == "granted"){
 <br>
 
 ![](img/API_notificacion.png)
+
+## ASYNC / AWAIT
+
+> Consiste en darle un tiempo a la hora de ejecutar el codigo, pero que no interrumpa, con las demas ejecuciones.. es como si omite la ejecución, y lo muestra hasta que este lista.
+
+```JAVASCRIPT
+function baseDatos() {
+    return new Promise(function (resolve) {
+        console.log("Descargando Datos"); // Ejecuta
+        setTimeout(function () {
+            resolve("Los datos han sido descargados")
+        }, 5000) // pasusa de  tiempo
+    })
+}
+
+async function app() { // Omitir 
+    try { // Omitir 
+        const resultado = await baseDatos(); // Omitir 
+        console.log(resultado); // Omitir 
+    }
+    catch (error) { // error
+        console.log(error);// error
+    }
+}
+
+app();
+
+console.log("hola mundo") 
+```
+![](img/async.png)
