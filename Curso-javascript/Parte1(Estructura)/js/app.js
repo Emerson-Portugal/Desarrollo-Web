@@ -1,10 +1,8 @@
-function suma (a,b){
-    return a+b;
-}
+const numero1 = 20;
+const numero2 = "50";
 
-function operaciones(s){
-    console.log("la suma2 es: ", s(9,5));
-}
+console.log(numero1.toString());
+console.log(parseInt(numero2));
 
-operaciones(suma);
-console.log("la suma1 es: ", suma(9,5));
+console.log(numero1);
+console.log(numero2);

@@ -29,7 +29,7 @@ const saludo = "hola mundo"
 > `const`, es un tipo de declaracion, que no se puede modificar, es intocable en otras palabras 
 
 
-## Array y Diccionarios
+## Array y Objetos
 
 ### Array
 
@@ -42,9 +42,9 @@ const saludo = "hola mundo"
 
 ![](img/array__js.png)
 
-### Diccionario
+### Objetos
 
-> Como ya lo dije, es una caja, pero su diferencia es que podemos darle una especificacion, a cada valor.
+> Como ya lo dije, es como una caja, pero su diferencia es que podemos darle una especificacion, a cada valor.
 
 
 ```JAVASCRIPT
@@ -54,9 +54,48 @@ let computadora = {
   procesador: "intel"
 }
 ```
+
 ![](img/diccionari__js.png)
 
+> Hay propiedades que nos van a permitir agregar como eliminar valores de nuestro objeto
 
+```JAVASCRIPT
+let computadora = {
+    ram: "16GB",
+    espacio: "1TB",
+    procesador: "intel"
+}
+computadora.tiempo =  2016;
+console.log(computadora);
+
+delete computadora.tiempo;
+console.log(computadora);
+```
+
+![](img/objetos_ingreso.png)
+
+
+> En este apartado vamos a unir dos objetos, para tener solo uno
+
+```JAVASCRIPT
+let computadora1 = {
+    ram: "16GB",
+    espacio: "1TB",
+    procesador: "intel"
+}
+
+let computadora2 = {
+    ram: "8GB",
+    espacio: "5TB",
+    procesador: "AMD"
+}
+
+const unir = {...computadora1,...computadora2};
+
+console.log(unir);
+```
+
+![](img/union_objeto.png);
 ## Bucles
 
 > Este apartado se divide en multiples partes, tenemos `if, while y for`.De esa manera podemos poner condiciones hasta que cumpla la conficion.
@@ -109,7 +148,34 @@ for (let i = 0; i < 10; i++) {
 
 ## Funsiones
 
-![](img/resumen.png)
+> `OJO`, diferencia entre un metodo y una funsion
+
+```JAVASCRIPT
+
+const numero1 = 20;
+const numero2 = "50";
+
+console.log(numero1.toString());
+console.log(parseInt(numero2));
+
+console.log(numero1);
+console.log(numero2);
+```
+![](img/diferencia_objeto.png)
+
+
+
+> Partes de una funsion, para entender la logica de una funsion.
+
+```JAVASCRIPT
+
+function valor (n1, n2) {
+    return n1 + n2;
+}
+console.log(valor(1,5))
+
+```
+![](img/funsiones_parte.png)
 
 > Es una implementacion, que te permite no repetir codigo, digamos que tenemos que hacer una condicion, con ello solo lo escribimos una sola vez y lo llamanos las veces que desemos.
 
