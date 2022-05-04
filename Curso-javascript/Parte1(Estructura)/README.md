@@ -275,7 +275,7 @@ persona2.contenido();
 
 ![](img/extens__js.png)
 
-##### Importante recordad
+# Importante recordar
 
 > Cuando usamos el metodo `=>`, dentro de un objeto, el valor no existe, ya que el lo toma como valor global. Mientras que `function`, toma el valor local. Hay que sabes diferencia cuando podemos usar cada metodo de llamado
 
