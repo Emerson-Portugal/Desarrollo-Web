@@ -1,13 +1,11 @@
-const nuevoValor = new Promise(function (resolve, reject) {
-    const valor = true;
-    if(valor) {
-        resolve(`Es valor es ${valor}`); 
-    }
-    else {
-        reject(`Es valor es ${valor}`);
-    }
+const boton = document.querySelector('#boton');
+boton.addEventListener('click', function(){
+    Notification.requestPermission()
+        .then(function(resultado) {
+            console.log(`El resultado es ${resultado}`)
+        })
 })
 
-nuevoValor
-    .then( resultado => console.log(resultado))
-    .catch( error => console.log(error))
+if(Notification.permission == "granted"){
+    new Notification (" Asi se ejecuta");
+}

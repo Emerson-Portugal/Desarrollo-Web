@@ -5,7 +5,6 @@
   <img src="img/js.jpg" width=200px>
   <img src="img/js.jpg" width=200px>
 </div>
-}
 
 > En este punto se tocara sobre la estructura de JS y vamos tener ejemplos de  API, PROMESAS y ASYNC/AWAIT, que nos van a permitir sacar una mejor utilidad al javascript.
 
@@ -38,3 +37,24 @@ nuevoValor
 <br>
 
 ![](img/Promesas.png)
+
+## API Notificacion
+
+> En este caso, vamos a validar, usando promesas, si temeos permiso de mostrar notificaciones.
+
+```JAVASCRIPT
+const boton = document.querySelector('#boton');
+boton.addEventListener('click', function(){
+    Notification.requestPermission()
+        .then(function(resultado) {
+            console.log(`El resultado es ${resultado}`)
+        })
+})
+
+if(Notification.permission == "granted"){
+    new Notification (" Asi se ejecuta");
+}
+```
+<br>
+
+![](img/API_notificacion.png)
