@@ -35,3 +35,25 @@
 > ` document.querySelectorAll`: tomara todas las etiquetas del HTML, lo pondra en un Array
 
 ![](img/mostar_DOM.png)
+
+
+## Mostrar el contenido de las Etiquetas
+
+> Con el objeto de `document.textContent`, vamos apoder el contenido de la etiqueta.
+
+>`document.textContent`: Te mostrara el contenido de la etiqueta
+
+>`document.innerHTML`: Te va a mostrar el contenido de la etiqueta, pero si ese contenido tiene alguna etiqueta mas, lo va a mostar
+
+>`document.outerHTML`: te va a mostrar toda la etiqueta
+
+```JAVASCRIPT
+const titulo = document.querySelector('.title');
+console.log(titulo);
+console.log(titulo.textContent);
+console.log(titulo.innerHTML);
+console.log(titulo.outerHTML);
+
+```
+
+![](img/devolver_DOM.png)
