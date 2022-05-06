@@ -70,3 +70,30 @@ console.log(titulo.outerHTML);
 ```
 
 ![](img/modificacion_DOM.png)
+
+## Agreamos clases a las etiquetas
+
+> Como lo voy mencionaqndo, hay objetos que te permiten crear u agregar valor a tus etiquetas ya existentes.
+
+```JAVASCRIPT
+    const titulo = document.querySelector('.title');
+    titulo.classList.add('container');
+```
+
+![](img/agregar_DOM.png)
+
+
+## Vamos a crear nuevas etiquetas
+
+> Gracias a este objeto, vamos a implementar nuevas etiquetas desde js. Hay que tener en cuenta algunas restricciones, como tener un contenedor para la etiqueta creada, si no, no sera posible agregarlo al HTML.
+
+```JAVASCRIPT
+    const contenedor = document.querySelector('.container');
+    const etiqueta = document.createElement('P');
+    etiqueta.textContent = "hola"
+    contenedor.appendChild(etiqueta);
+    console.log(etiqueta.outerHTML)
+
+```
+
+![](img/creacion_dom.png)
