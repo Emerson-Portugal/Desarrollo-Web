@@ -1,5 +1,7 @@
-const contenedor = document.querySelector('.container');
-const etiqueta = document.createElement('P');
-etiqueta.textContent = "hola"
-contenedor.appendChild(etiqueta);
-console.log(etiqueta.outerHTML)
+const valor1 = document.querySelector("#valor1");
+
+
+valor1.addEventListener('input', function(e){
+    console.log(e.target.value);
+})
+

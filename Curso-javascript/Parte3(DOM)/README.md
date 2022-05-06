@@ -97,3 +97,57 @@ console.log(titulo.outerHTML);
 ```
 
 ![](img/crear_DOM.png)
+
+## Eventos
+
+> Que es un evento? Es un suceso, que se efectuara, al cumplirse una accion.
+
+### Eventos por Navegador
+
+> Aqui nos vamos a referir, cuando el usuario haga click, en un boton, esto permitira realizar una accion. `boton.addEventListener('click', function())`
+
+> Hay eventos, que permiten cargar todo los elementos del HTML, para asi ser visible. `document.addEventListener('DOMContentLoaded', function())`
+
+```JAVASCRIPT
+const boton = document.querySelector('#boton');
+
+boton.addEventListener('click', function(){
+    alert("Gracias por hacer click")
+})
+
+console.log("Hola")
+document.addEventListener('DOMContentLoaded', function(){
+    console.log("Hola como")
+})
+console.log("Hola como estas")
+
+```
+
+![](img/Eventos_navegador.png)
+
+
+### Eventos por Teclado
+
+> Aqui vamos a capturar lo que el usuario va a ingresar y vamos a validar o hacer alguna operacion, con los valores ingresados por el usuario
+
+```HTML
+    <form>
+    <input type="text" id="valor1" placeholder="valor1">    
+    <br><br>
+    <input type="text"id="valor2" placeholder="valor2">
+    <br><br>
+    <input type="submit">
+</form>
+```
+
+
+```JAVASCRIPT
+const valor1 = document.querySelector("#valor1");
+valor1.addEventListener('input', function(e){
+    console.log(e.target.value);
+})
+
+
+```
+
+![](img/teclado_DOM.png)
