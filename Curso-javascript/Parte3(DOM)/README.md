@@ -57,3 +57,16 @@ console.log(titulo.outerHTML);
 ```
 
 ![](img/devolver_DOM.png)
+
+## Modificar el contenido HTML 
+
+> Gracias a objetos  de javascript, podemos modicar el contenido que se va a mostrar por pantalla.
+
+>`document.textContent`: con esta propiedad, vamos a poder modificar el contenido de la etiqueta.
+
+```JAVASCRIPT
+    const titulo = document.querySelector('.title');
+    titulo.textContent = " gil"
+```
+
+![](img/modificacion_DOM.png)
