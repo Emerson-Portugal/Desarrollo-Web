@@ -96,4 +96,4 @@ console.log(titulo.outerHTML);
 
 ```
 
-![](img/creacion_dom.png)
+![](img/crear_DOM.png)
