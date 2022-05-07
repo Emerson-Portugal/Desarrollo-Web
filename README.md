@@ -3,6 +3,8 @@
   <img src="img/programacion.gif" width=150px>
   <img src="img/programacion.gif" width=150px>
   <img src="img/programacion.gif" width=150px>
+  <img src="img/programacion.gif" width=150px>
+  <img src="img/programacion.gif" width=150px>
 </div>
 
 ## HTML
@@ -28,10 +30,21 @@
 > Vamos hablar, del posicionamiento, de los elementos, gracias a las propiedad de position y display.
 ## JavaScrpit
 
+`Parte1`
+
+> Se hable de como se la sintaxis del lenguajede Javascript, nombramos las varibles, funciona, etc, como lo mensione es toda la sintaxis que vas a usar en algun momento
+
+`Parte2`
+
+>Aqui ya tocamos temas mas avanzados, como promesas, API, ASYNC y algo de validacion, son temas muy puntuales, que en algun momento lo vas a usar. 
+
+`Parte3`
+
+> Son las acciones que el usuario, va a realizar y nosotros como programadores, vamos a capturas y realizaremos la operacion.
 
 
 ######  Avance
 
 * [x] html
 * [x] css
-* [  ] javascript
+* [x] javascript
