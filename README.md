@@ -107,3 +107,12 @@ html {
   box-sizing: inherit;
 }
 ```
+> Con este patron de codigo, vas a poder centrar todos los elementos en el medio de tu pagina web
+
+```CSS
+  display: flex;
+  flex-direction: column; /*opcional*/
+  align-items: center;  /*opcional*/
+  justify-content: center;
+  min-height: 100vh;
+```
