@@ -136,7 +136,7 @@ console.log("Hola como estas")
     <br><br>
     <input type="text"id="valor2" placeholder="valor2">
     <br><br>
-    <input type="submit">
+    <input type="submit" id="operacion">
 </form>
 ```
 

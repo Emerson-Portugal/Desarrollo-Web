@@ -182,3 +182,17 @@ gap: 2px;
 ```
 
 ![](img/flex-grid.png)
+
+### CODIGO PARA  PONER ELEMENTOS EN EL MEDIO
+
+> Con este patron de codigo, vas a poder centrar todos los elementos en el medio de tu pagina web
+
+```CSS
+  display: flex;
+  flex-direction: column; /*opcional*/
+  align-items: center;  /*opcional*/
+  justify-content: center;
+  min-height: 100vh;
+```
+
+![](img/centrado.png)
