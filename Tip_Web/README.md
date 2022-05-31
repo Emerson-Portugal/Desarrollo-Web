@@ -7,52 +7,107 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
 ```
 
-> Aqui vamos a darle un `container`, al tu estructura, para que puedas centrar tus contenidos.
+> Esta es la estructura, antes de empezar a escribir codigo en CSS
+
 
 ```CSS
-.contenedor {
-  max-width: 120rem;
-  margin: 0 auto;
+root {
+  --fuenteHeading: 'PT Sans', sans-serif;
+  --fuenteParrafos: 'Open Sans', sans-serif;
+  --primario: #784D3C;
 }
-```
 
->Vamos a dale una normalización, el contenido de nuestro HTML, esto le dara una mejor preforma 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1rem* = 10px*/
+}
 
-```CSS
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
 h1,h2,h3 {
   text-align: center;
-  font-family: "tipo de letra";
   color: var(--color-letras);
 }
+
 h1 {
   font-size: 4rem;
 }
+
 h2 {
   font-size: 3.2rem;
 }
+
 h3 {
   font-size: 2.4rem;
 }
+
 p {
   font-size: 1.8rem;
   font-family: "tipo de letra";
   color: var(--color-blanco);
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
+  display: block;
 }
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
 ```
-> Aqui vamos a validar el `rem` y algunos estilos por defecto
+### Codigo para CSS
+
+> Negrita
 
 ```CSS
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; /*1rem* = 10px*/
-}
-*,*:before,*:after {
-  box-sizing: inherit;
+font-weight: bold
+```
+> Quita los puntos de li
+
+```CSS
+list-style: none
+```
+
+> Manito
+
+```CSS
+cursor:point 
+```
+
+> Bordes
+
+```CSS
+overflow: hidde
+```
+
+> Mayuscula
+
+```CSS
+text-transform: uppercase
+```
+
+> El ultimo elemento de la lista
+
+```CSS
+p:last-child {
+  color: lime;
 }
 ```
