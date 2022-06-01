@@ -4,7 +4,6 @@
   <img src="img/programacion.gif" width=150px>
   <img src="img/programacion.gif" width=150px>
   <img src="img/programacion.gif" width=150px>
-  <img src="img/programacion.gif" width=150px>
 </div>
 
 ## HTML
