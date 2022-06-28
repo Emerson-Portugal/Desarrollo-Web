@@ -4,16 +4,15 @@
 > Aqui vamos a poner un link, para poder darle una Normalizacion en el HTML y CSS, recetea toda su estructura.
 
 ```HTML
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
 ```
 
 > Esta es la estructura, antes de empezar a escribir codigo en CSS
 
 
 ```CSS
-root {
+:root {
   --fuenteHeading: 'PT Sans', sans-serif;
-  --fuenteParrafos: 'Open Sans', sans-serif;
   --primario: #784D3C;
 }
 
@@ -28,7 +27,7 @@ html {
 
 h1,h2,h3 {
   text-align: center;
-  color: var(--color-letras);
+  color: var(--primario);
 }
 
 h1 {
@@ -45,8 +44,6 @@ h3 {
 
 p {
   font-size: 1.8rem;
-  font-family: "tipo de letra";
-  color: var(--color-blanco);
 }
 
 a {
@@ -110,4 +107,11 @@ text-transform: uppercase
 p:last-child {
   color: lime;
 }
+```
+> Poner un video en HTML
+
+```HTML
+<video autoplay="" muted="" loop="" class="video">
+  <source src="video/video.mp4" type="video/mp4">
+</video>
 ```
