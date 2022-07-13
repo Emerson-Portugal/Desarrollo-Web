@@ -1,6 +1,5 @@
 // Aqui se trabaja con fetch y then
-
-function datos() {
+/* function datos() {
     let element = document.querySelector(".element");
     let api = fetch("https://jsonplaceholder.typicode.com/users")
         .then(run => run.json())
@@ -13,23 +12,8 @@ function datos() {
         })
         .catch(error => console.log(error))
 }
-datos();
+datos(); */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 // Aqui se trabaja con fetch y await
 let run = document.querySelector(".element1");
 const cargar = async () => {
@@ -45,12 +29,9 @@ const cargar = async () => {
     catch (error) {
         console.log(error)
     }
-
-
 }
-
 cargar();
- */
+
 
 
 
