@@ -21,5 +21,7 @@ function guardar() {
 guardar()
 
 ```
+![alt text](img/parte1.png)
+
 > Hay dos formas de en enviar datos al localStorage, la primera es el "setItem", la segunda es igual pero con una diferencia que es una valor Objeto, hay que pasarlo a JSON, para asi poder leerlo.
 
