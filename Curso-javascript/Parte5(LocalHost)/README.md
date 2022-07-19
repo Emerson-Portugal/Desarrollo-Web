@@ -12,7 +12,6 @@
 ## Guardar datos en el LocalStorage
 
 ```js
-
 function guardar() {
     person = {
         name: 'juan',
@@ -24,7 +23,6 @@ function guardar() {
     localStorage.setItem('nombre', nombre);
     localStorage.setItem('person', JSON.stringify(person));
 }
-
 guardar()
 
 ```
@@ -41,14 +39,39 @@ guardar()
 ```js
 
 function extraer(){
-
    let nombre = localStorage.getItem('nombre')
    let persona = JSON.parse(localStorage.getItem('person'))
     console.log(nombre)
     console.log(persona)
-
 }
 extraer()
-
 ```
 ![alt text](img/parte2.png)
+
+## Eliminar Datos y Limitar el LocalStorage
+
+> Usaremos dos comandos, "removeItem", este esliminara solo un elemento, Mientras que ".clear", limpiara todo el localStorage
+
+> localStorage.removeItem
+
+```js
+
+function eliminar(){
+    localStorage.removeItem('nombre')
+}
+eliminar()
+
+```
+![alt text](img/parte3.png)
+
+> localStorage.clear
+
+```js
+
+function eliminar(){
+    localStorage.clear()
+}
+eliminar()
+
+```
+![alt text](img/parte4.png)

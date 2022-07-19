@@ -24,4 +24,8 @@ extraer()
 
 function eliminar(){
 
+    localStorage.removeItem('nombre')
+    localStorage.clear()
+
 }
+eliminar()
