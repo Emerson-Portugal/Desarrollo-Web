@@ -60,18 +60,16 @@ function eliminar(){
     localStorage.removeItem('nombre')
 }
 eliminar()
-
 ```
+
 ![alt text](img/parte3.png)
 
 > localStorage.clear
 
 ```js
-
 function eliminar(){
     localStorage.clear()
 }
 eliminar()
-
 ```
 ![alt text](img/parte4.png)
