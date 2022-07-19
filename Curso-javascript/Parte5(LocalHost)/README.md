@@ -62,7 +62,7 @@ function eliminar(){
 eliminar()
 ```
 
-![alt text](img/parte3.png)
+![alt text](img/Parte3.png)
 
 > localStorage.clear
 
