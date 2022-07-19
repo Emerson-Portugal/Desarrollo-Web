@@ -14,8 +14,14 @@ guardar()
 
 function extraer(){
 
+   let nombre = localStorage.getItem('nombre')
+   let persona = JSON.parse(localStorage.getItem('person'))
+    console.log(nombre)
+    console.log(persona)
+
 }
+extraer()
 
 function eliminar(){
-    
+
 }
